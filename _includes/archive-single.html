@@ -32,7 +32,7 @@
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     
-      {% if post.collection == 'publications' and post.pubtype == 'preprint' and post.date %}
+      {% if post.collection == 'publications' and post.date and post.pubtype == 'preprint'%}
         <p class="archive__item-excerpt" itemprop="description">{{ post.author }}. {{ post.date | default: "1900-01-01" | date: "%B %Y" }} </p>
       {% elsif post.collection == 'publications' %}
         <p class="archive__item-excerpt" itemprop="description">{{ post.author }}. <i>{{ post.venue }}</i>.</p>
