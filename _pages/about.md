@@ -22,5 +22,5 @@ You can find more about my academic journey and other interests in my [CV](https
 
  ![English](gb.png) Hello! 
  ![French](fr.png) Bonjour!
- ![Chinese](zh.png) [你好！](shuligraph.gitee.io)
+ ![Chinese](zh.png) [你好！](https://shuligraph.gitee.io/)
  
