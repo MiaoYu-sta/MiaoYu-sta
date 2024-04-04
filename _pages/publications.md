@@ -1,6 +1,7 @@
 ---
 layout: archive
 permalink: /publications/
+title: "Talks"
 author_profile: true
 ---
 
