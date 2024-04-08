@@ -1,2 +1,2 @@
-# Academic Pages
+# Simple and dark
 dark and simple
