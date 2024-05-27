@@ -13,7 +13,16 @@ author_profile: true
   {% include archive-single-talk.html %}
 {% endfor %}
 -->
-
+<h2>Conferences</h2>
 {% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+  {% if post.pubtype == 'talk' %} 
+    {% include archive-single-talk.html %}
+  {% endif %}
+{% endfor %}
+
+<h2>Seminars</h2>
+{% for post in site.talks reversed %}
+  {% if post.pubtype == 'seminar' %} 
+    {% include archive-single-talk.html %}
+  {% endif %}
 {% endfor %}
