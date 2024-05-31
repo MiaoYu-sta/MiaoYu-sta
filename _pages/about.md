@@ -25,7 +25,7 @@ You can find more about my academic journey and other interests in my [CV](http:
  ![French](fr.png) Bonjour!
  ![Chinese](zh.png) [你好！](https://shuligraph.gitee.io/)
 
-### Languages
+### Society
 * [Société Mathématique de France(SMF)](https://smf.emath.fr/), 2024-2026
 * [Société informatique de France(SiF)](https://archive.societe-informatique-de-france.fr/), 2024-2025
  
