@@ -5,11 +5,8 @@ main:
 
   - title: "Talks"
     url: /talks/    
-
-  - title: "Resources"
-    url: /resource/
   
-  #- title: "Teaching"
+  - title: "Teaching"
     #url: /teaching/    
     
   #- title: "Portfolio"
@@ -18,7 +15,7 @@ main:
   #- title: "Blog Posts"
     #url: /year-archive/
     
-  #- title: "CV"
+  - title: "CV"
     #url: /cv/
     
   #- title: "Guide"
