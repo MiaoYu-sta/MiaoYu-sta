@@ -19,6 +19,13 @@ author_profile: true
     {% endif %}
   {% endfor %}
 
+<h2>Projects</h2>
+  {% for post in site.publications reversed %} 
+    {% if post.pubtype == 'project' %} 
+      {% include archive-single.html %} 
+    {% endif %}
+  {% endfor %}
+
 <h2>Preprints</h2>
   {% for post in site.publications reversed %} 
     {% if post.pubtype == 'preprint' %} 
@@ -32,3 +39,5 @@ author_profile: true
       {% include archive-single.html %} 
     {% endif %}
   {% endfor %}
+
+
