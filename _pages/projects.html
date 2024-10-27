@@ -7,7 +7,7 @@ author_profile: true
 
 <h2>Projects</h2>
   {% for post in site.publications reversed %} 
-    {% if post.pubtype == 'journal' %} 
+    {% if post.pubtype == 'project' %} 
       {% include archive-single.html %} 
     {% endif %}
   {% endfor %}
